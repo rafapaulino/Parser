@@ -20,6 +20,12 @@
 		6A175431161B152C005B7C16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A175412161B152C005B7C16 /* Foundation.framework */; };
 		6A175439161B152C005B7C16 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A175437161B152C005B7C16 /* InfoPlist.strings */; };
 		6A17543C161B152C005B7C16 /* ParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A17543B161B152C005B7C16 /* ParserTests.m */; };
+		6A175453161B154B005B7C16 /* coldplay_parachutes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A17544C161B154B005B7C16 /* coldplay_parachutes.jpg */; };
+		6A175454161B154B005B7C16 /* loja.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6A17544D161B154B005B7C16 /* loja.xml */; };
+		6A175455161B154B005B7C16 /* LoneyDear_Citadel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A17544E161B154B005B7C16 /* LoneyDear_Citadel.jpg */; };
+		6A175456161B154B005B7C16 /* queen_greatest_hits_I.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A17544F161B154B005B7C16 /* queen_greatest_hits_I.jpg */; };
+		6A175459161B1615005B7C16 /* LeitorXml.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A175458161B1615005B7C16 /* LeitorXml.m */; };
+		6A175460161B2FDE005B7C16 /* DetalhesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A17545F161B2FDE005B7C16 /* DetalhesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +58,14 @@
 		6A175438161B152C005B7C16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A17543A161B152C005B7C16 /* ParserTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParserTests.h; sourceTree = "<group>"; };
 		6A17543B161B152C005B7C16 /* ParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParserTests.m; sourceTree = "<group>"; };
+		6A17544C161B154B005B7C16 /* coldplay_parachutes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = coldplay_parachutes.jpg; path = Resources5/XML/coldplay_parachutes.jpg; sourceTree = "<group>"; };
+		6A17544D161B154B005B7C16 /* loja.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = loja.xml; path = Resources5/XML/loja.xml; sourceTree = "<group>"; };
+		6A17544E161B154B005B7C16 /* LoneyDear_Citadel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = LoneyDear_Citadel.jpg; path = Resources5/XML/LoneyDear_Citadel.jpg; sourceTree = "<group>"; };
+		6A17544F161B154B005B7C16 /* queen_greatest_hits_I.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = queen_greatest_hits_I.jpg; path = Resources5/XML/queen_greatest_hits_I.jpg; sourceTree = "<group>"; };
+		6A175457161B1615005B7C16 /* LeitorXml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeitorXml.h; sourceTree = "<group>"; };
+		6A175458161B1615005B7C16 /* LeitorXml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeitorXml.m; sourceTree = "<group>"; };
+		6A17545E161B2FDE005B7C16 /* DetalhesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalhesViewController.h; sourceTree = "<group>"; };
+		6A17545F161B2FDE005B7C16 /* DetalhesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalhesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +95,10 @@
 		6A175401161B152B005B7C16 = {
 			isa = PBXGroup;
 			children = (
+				6A17544C161B154B005B7C16 /* coldplay_parachutes.jpg */,
+				6A17544D161B154B005B7C16 /* loja.xml */,
+				6A17544E161B154B005B7C16 /* LoneyDear_Citadel.jpg */,
+				6A17544F161B154B005B7C16 /* queen_greatest_hits_I.jpg */,
 				6A175416161B152C005B7C16 /* Parser */,
 				6A175434161B152C005B7C16 /* ParserTests */,
 				6A17540F161B152C005B7C16 /* Frameworks */,
@@ -114,7 +132,11 @@
 				6A17541F161B152C005B7C16 /* AppDelegate.h */,
 				6A175420161B152C005B7C16 /* AppDelegate.m */,
 				6A175422161B152C005B7C16 /* MainStoryboard.storyboard */,
+				6A17545E161B2FDE005B7C16 /* DetalhesViewController.h */,
+				6A17545F161B2FDE005B7C16 /* DetalhesViewController.m */,
 				6A175425161B152C005B7C16 /* ViewController.h */,
+				6A175457161B1615005B7C16 /* LeitorXml.h */,
+				6A175458161B1615005B7C16 /* LeitorXml.m */,
 				6A175426161B152C005B7C16 /* ViewController.m */,
 				6A175417161B152C005B7C16 /* Supporting Files */,
 			);
@@ -224,6 +246,10 @@
 			files = (
 				6A17541B161B152C005B7C16 /* InfoPlist.strings in Resources */,
 				6A175424161B152C005B7C16 /* MainStoryboard.storyboard in Resources */,
+				6A175453161B154B005B7C16 /* coldplay_parachutes.jpg in Resources */,
+				6A175454161B154B005B7C16 /* loja.xml in Resources */,
+				6A175455161B154B005B7C16 /* LoneyDear_Citadel.jpg in Resources */,
+				6A175456161B154B005B7C16 /* queen_greatest_hits_I.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +287,8 @@
 				6A17541D161B152C005B7C16 /* main.m in Sources */,
 				6A175421161B152C005B7C16 /* AppDelegate.m in Sources */,
 				6A175427161B152C005B7C16 /* ViewController.m in Sources */,
+				6A175459161B1615005B7C16 /* LeitorXml.m in Sources */,
+				6A175460161B2FDE005B7C16 /* DetalhesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

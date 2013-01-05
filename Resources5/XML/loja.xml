@@ -1,0 +1,23 @@
+<loja>
+    <cd>
+        <artista>Queen</artista>
+        <album>Greatest Hits I</album>
+        <preco>25.90</preco>
+        <ano>1987</ano>
+        <imagem>queen_greatest_hits_I.jpg</imagem>
+    </cd>
+    <cd>
+        <artista>Coldplay</artista>
+        <album>Parachutes</album>
+        <preco>20.90</preco>
+        <ano>1999</ano>
+        <imagem>coldplay_parachutes.jpg</imagem>
+    </cd>
+    <cd>
+        <artista>Loney, Dear</artista>
+        <album>Citadel Band</album>
+        <preco>30.90</preco>
+        <ano>2005</ano>
+        <imagem>LoneyDear_Citadel.jpg</imagem>
+    </cd>
+</loja>
